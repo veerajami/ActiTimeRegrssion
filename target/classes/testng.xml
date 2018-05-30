@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ActiTime Regression Test Suit">
+	<test name="ActiTime Test">
+
+		<parameter name="" value="" />
+
+
+		<classes>
+			<class name="com.actitime.tests.LoginPageTest" />
+		</classes>
+
+	</test>
+</suite>

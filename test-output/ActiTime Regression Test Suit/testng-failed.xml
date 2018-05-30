@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [ActiTime Regression Test Suit]">
+  <test name="ActiTime Test(failed)">
+    <parameter name="" value=""/>
+    <classes>
+      <class name="com.actitime.tests.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="loginWithTestDataTest"/>
+          <include name="validateActimindLinkTest"/>
+          <include name="TearDown"/>
+          <include name="loginWithKeyboardTest"/>
+        </methods>
+      </class> <!-- com.actitime.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- ActiTime Test(failed) -->
+</suite> <!-- Failed suite [ActiTime Regression Test Suit] -->
