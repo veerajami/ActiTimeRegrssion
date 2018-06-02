@@ -1,0 +1,5 @@
+com\actitime\tests\UsersPageTest.class
+com\actitime\tests\LoginPageTest.class
+com\actitime\tests\HomePageTest.class
+com\actitime\tests\OpenTasksPageTest.class
+com\actitime\tests\CompletedTasksPageTest.class

@@ -1,0 +1,12 @@
+com\actitime\pages\OpenTasksPage.class
+com\actitime\util\WebEventListener.class
+com\actitime\pages\ActimindCustomerDevelopmentPage.class
+com\actitime\pages\ProjectsAndCustomersPage.class
+com\actitime\pages\ReportsPage.class
+com\actitime\util\ExcelRead.class
+com\actitime\util\Utility.class
+com\actitime\pages\HomePage.class
+com\actitime\base\TestBase.class
+com\actitime\pages\UsersPage.class
+com\actitime\pages\CompletedTasksPage.class
+com\actitime\pages\LoginPage.class

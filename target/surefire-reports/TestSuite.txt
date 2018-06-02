@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 125.112 sec <<< FAILURE!
+validateActimindLinkTest(com.actitime.tests.LoginPageTest)  Time elapsed: 0.622 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.actitime.tests.LoginPageTest.validateActimindLinkTest(LoginPageTest.java:50)
+
+loginTest(com.actitime.tests.LoginPageTest)  Time elapsed: 0.674 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.actitime.tests.LoginPageTest.loginTest(LoginPageTest.java:57)
+
+loginWithTestDataTest(com.actitime.tests.LoginPageTest)  Time elapsed: 0.588 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.actitime.tests.LoginPageTest.loginWithTestDataTest(LoginPageTest.java:73)
+

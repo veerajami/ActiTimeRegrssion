@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="3" name="TestSuite" time="11.441" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="ActiTimeTest"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="C:\Users\lenovo\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="a979da6bbf2eea0d"/>
+    <property name="POM_ARTIFACTID" value="ActiTime_Regression_Automation"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="ActiTime_Regression_Automation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\lenovo\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="lenovo"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="ActiTimeTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/ActiTimeTest/8/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\lenovo\AppData\Local"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="lenovo"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PERL5LIB" value="E:\oracle\product\10.2.0\db_3\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_3\perl\5.8.3\lib;E:\oracle\product\10.2.0\db_3\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_3\perl\site\5.8.3;E:\oracle\product\10.2.0\db_3\perl\site\5.8.3\lib;E:\oracle\product\10.2.0\db_3\sysman\admin\scripts;E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib;E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_2\perl\site\5.8.3;E:\oracle\product\10.2.0\db_2\perl\site\5.8.3\lib;E:\oracle\product\10.2.0\db_2\sysman\admin\scripts;E:\oracle\product\10.2.0\db_1\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_1\perl\5.8.3\lib;E:\oracle\product\10.2.0\db_1\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_1\perl\site\5.8.3;E:\oracle\product\10.2.0\db_1\perl\site\5.8.3\lib;E:\oracle\product\10.2.0\db_1\sysman\admin\scripts;"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="SCITE_USERHOME" value="C:\Users\lenovo\AppData\Local\AutoIt v3\SciTE"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/ActiTimeTest/8/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\lenovo\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/ActiTimeTest/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_144"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\lenovo"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="ViN&apos;s-PC"/>
+    <property name="GOOGLE_API_KEY" value="no"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_SECRET" value="no"/>
+    <property name="POM_GROUPID" value="ActiTime_Regression_Testing"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-ActiTimeTest-8"/>
+    <property name="JENKINS_SERVER_COOKIE" value="a979da6bbf2eea0d"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\lenovo"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32;C:\Program Files\Java\jdk1.7.0_65\bin;D:\Appium\AppData applium Installation Files\Android SDK\platform-tools;D:\Appium\AppData applium Installation Files\Android SDK\tools;C:\Program Files\nodejs;D:\Selenium\driver\geckodriver.exe;D:\Selenium\driver\chromedriver.exe;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.7.0_65\bin;D:\Appium\AppData applium Installation Files\Android SDK\platform-tools;D:\Appium\AppData applium Installation Files\Android SDK\tools;C:\Program Files\nodejs;D:\Selenium\driver\geckodriver.exe;D:\Selenium\driver\chromedriver.exe;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.7.0_65\bin;D:\Appium\AppData applium Installation Files\Android SDK\platform-tools;D:\Appium\AppData applium Installation Files\Android SDK\tools;C:\Program Files\nodejs;D:\Selenium\driver\geckodriver.exe;D:\Selenium\driver\chromedriver.exe;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\lenovo\AppData\Roaming\npm;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\lenovo\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest"/>
+    <property name="java.class.path" value="C:\Users\lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest\boot\plexus-classworlds-2.5.2.jar;C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest C:\Users\lenovo\.jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Users\lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 51069"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_144/bin;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32;C:\Program Files\Java\jdk1.7.0_65\bin;D:\Appium\AppData applium Installation Files\Android SDK\platform-tools;D:\Appium\AppData applium Installation Files\Android SDK\tools;C:\Program Files\nodejs;D:\Selenium\driver\geckodriver.exe;D:\Selenium\driver\chromedriver.exe;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.7.0_65\bin;D:\Appium\AppData applium Installation Files\Android SDK\platform-tools;D:\Appium\AppData applium Installation Files\Android SDK\tools;C:\Program Files\nodejs;D:\Selenium\driver\geckodriver.exe;D:\Selenium\driver\chromedriver.exe;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.7.0_65\bin;D:\Appium\AppData applium Installation Files\Android SDK\platform-tools;D:\Appium\AppData applium Installation Files\Android SDK\tools;C:\Program Files\nodejs;D:\Selenium\driver\geckodriver.exe;D:\Selenium\driver\chromedriver.exe;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\lenovo\AppData\Roaming\npm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_144/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 15 Stepping 10, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest"/>
+    <property name="=D:" value="D:\jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\lenovo\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/ActiTimeTest/8/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\java\New Eclipse\WebAdminTest\ActiTime_Regression_Automation"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/ActiTimeTest/"/>
+    <property name="GOOGLE_DEFAULT_CLIENT_ID" value="no"/>
+    <property name="LOGONSERVER" value="\\ViN&apos;s-PC"/>
+    <property name="USERDOMAIN" value="ViN&apos;s-PC"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\lenovo\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\ActiTimeTest"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="8"/>
+    <property name="ANDROID_HOME" value="D:\Appium\AppData applium Installation Files\Android SDK"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="0f0a"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\lenovo"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\lenovo\.jenkins\workspace\ActiTimeTest"/>
+    <property name="maven3.interceptor.common" value="C:\Users\lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\AutoIt3\AutoItX"/>
+  </properties>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="validateLoginPageTest" time="0.023"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="validateLoginPageTitleTest" time="0.059"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="validateCopyrightTest" time="0.215"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="validateActimindLinkTest" time="0.622">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.actitime.tests.LoginPageTest.validateActimindLinkTest(LoginPageTest.java:50)
+</failure>
+    <system-out>Before navigating to: &apos;http://lenovo-pc/login.do&apos;
+Navigated to:&apos;http://lenovo-pc/login.do&apos;
+Trying to find Element By : By.xpath: //a[@class=&apos;copyright&apos;]
+Found Element By : By.xpath: //a[@class=&apos;copyright&apos;]
+Trying to click on: [[ChromeDriver: chrome on XP (e623c0939730b4f095fe3481da467055)] -&gt; xpath: //a[@class=&apos;copyright&apos;]]
+Clicked on: [[ChromeDriver: chrome on XP (e623c0939730b4f095fe3481da467055)] -&gt; xpath: //a[@class=&apos;copyright&apos;]]
+</system-out>
+    <system-err>Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 7891
+Only local connections are allowed.
+Jun 02, 2018 8:24:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginTest" time="0.674">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.actitime.tests.LoginPageTest.loginTest(LoginPageTest.java:57)
+</failure>
+    <system-out>Before navigating to: &apos;http://lenovo-pc/login.do&apos;
+Navigated to:&apos;http://lenovo-pc/login.do&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;pwd&apos;]
+Found Element By : By.xpath: //input[@name=&apos;pwd&apos;]
+Trying to find Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Found Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Trying to click on: [[ChromeDriver: chrome on XP (5fa85cafc5e35d8a489e3084bf966a19)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+Clicked on: [[ChromeDriver: chrome on XP (5fa85cafc5e35d8a489e3084bf966a19)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+</system-out>
+    <system-err>Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 17042
+Only local connections are allowed.
+Jun 02, 2018 8:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginWithKeyboardTest" time="3.236"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginWithTestDataTest" time="0.588">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.actitime.tests.LoginPageTest.loginWithTestDataTest(LoginPageTest.java:73)
+</failure>
+    <system-out>success3
+Before navigating to: &apos;http://lenovo-pc/login.do&apos;
+Navigated to:&apos;http://lenovo-pc/login.do&apos;
+Trying to find Element By : By.xpath: //input[@name=&apos;username&apos;]
+Found Element By : By.xpath: //input[@name=&apos;username&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;pwd&apos;]
+Found Element By : By.xpath: //input[@name=&apos;pwd&apos;]
+Trying to find Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Found Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Trying to click on: [[ChromeDriver: chrome on XP (bc54863ab1c215db04d7eb634a2ebd72)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+Clicked on: [[ChromeDriver: chrome on XP (bc54863ab1c215db04d7eb634a2ebd72)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+</system-out>
+    <system-err>Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 39573
+Only local connections are allowed.
+Jun 02, 2018 8:24:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginWithTestDataTest" time="1.806"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginWithTestDataTest" time="1.016"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginWithTestDataTest" time="0.982"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginWithTestDataTest" time="1.134"/>
+  <testcase classname="com.actitime.tests.LoginPageTest" name="loginWithTestDataTest" time="1.086"/>
+</testsuite>
