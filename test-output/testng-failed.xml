@@ -3,13 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.actitime.tests.LoginPageTest">
+      <class name="Selenium_Practice.AshotDemo">
         <methods>
-          <include name="loginTest"/>
           <include name="setup"/>
-          <include name="TearDown"/>
+          <include name="fullScreenshotTest"/>
         </methods>
-      </class> <!-- com.actitime.tests.LoginPageTest -->
+      </class> <!-- Selenium_Practice.AshotDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

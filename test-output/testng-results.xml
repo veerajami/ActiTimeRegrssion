@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16611" started-at="2018-05-28T09:10:05Z" finished-at="2018-05-28T09:10:22Z">
+  <suite name="Default suite" duration-ms="57141" started-at="2018-06-06T02:08:04Z" finished-at="2018-06-06T02:09:01Z">
     <groups>
-      <group name="Navigation Functionality Validation">
-        <method signature="LoginPageTest.loginTest()[pri:5, instance:com.actitime.tests.LoginPageTest@d818d1]" name="loginTest" class="com.actitime.tests.LoginPageTest"/>
-      </group> <!-- Navigation Functionality Validation -->
     </groups>
-    <test name="Default test" duration-ms="16611" started-at="2018-05-28T09:10:05Z" finished-at="2018-05-28T09:10:22Z">
-      <class name="com.actitime.tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.tests.LoginPageTest@d818d1]" name="setup" is-config="true" duration-ms="13055" started-at="2018-05-28T14:40:05Z" finished-at="2018-05-28T14:40:18Z">
+    <test name="Default test" duration-ms="57141" started-at="2018-06-06T02:08:04Z" finished-at="2018-06-06T02:09:01Z">
+      <class name="Selenium_Practice.AshotDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium_Practice.AshotDemo@1723e30]" name="setup" is-config="true" duration-ms="15062" started-at="2018-06-06T07:38:04Z" finished-at="2018-06-06T07:38:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:5, instance:com.actitime.tests.LoginPageTest@d818d1]" name="loginTest" duration-ms="2515" started-at="2018-05-28T14:40:18Z" description="TestCase ID:5145" finished-at="2018-05-28T14:40:21Z">
+        <test-method status="PASS" signature="fullScreenshotTest()[pri:0, instance:Selenium_Practice.AshotDemo@1723e30]" name="fullScreenshotTest" duration-ms="41992" started-at="2018-06-06T07:38:19Z" finished-at="2018-06-06T07:39:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.actitime.tests.LoginPageTest@d818d1]" name="TearDown" is-config="true" duration-ms="899" started-at="2018-05-28T14:40:21Z" finished-at="2018-05-28T14:40:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.actitime.tests.LoginPageTest -->
+        </test-method> <!-- fullScreenshotTest -->
+      </class> <!-- Selenium_Practice.AshotDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

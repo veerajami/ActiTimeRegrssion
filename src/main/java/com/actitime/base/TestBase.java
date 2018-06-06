@@ -65,7 +65,7 @@ public class TestBase {
 		driver=e_driver;
 		
 		
-
+  
 		driver.manage().timeouts().implicitlyWait(Integer.parseInt(prop.getProperty("implicitwait_time")), TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(Integer.parseInt(prop.getProperty("pageload_time")), TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
